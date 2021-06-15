@@ -23,6 +23,12 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+In regular expressions, we use anchors to check if the matching symbol is the
+starting symbol or ending symbol of the input string. Anchors are of two types:
+The first type is the caret `^` that checks if the matching character is the first
+character of the input and the second type is the dollar sign `$` which checks if a matching
+character is the last character of the input string.
+
 ### Quantifiers
 
 ### Grouping Constructs
