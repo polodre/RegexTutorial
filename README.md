@@ -1,7 +1,5 @@
 # RegexTutorial
 
-# Title (replace with your title)
-
 Introductory paragraph (replace this with your text)
 
 ## Summary
@@ -55,6 +53,13 @@ of an input string. You can use grouping constructs to do the following: Match a
 is repeated in the input string.
 
 ### Bracket Expressions
+
+A bracket expression is either a matching list expression or a non-matching list expression.
+It consists of one or more expressions: ordinary characters, collating elements, collating
+symbols, equivalence classes, character classes, or range expressions. Brackets indicate a
+set of characters to match. Any individual character between the brackets will match, and
+you can also use a hyphen to define a set. You can use the ^ metacharacter to negate what
+is between the brackets. You will often see ranges of the alphabet or all numerals.
 
 ### Character Classes
 
