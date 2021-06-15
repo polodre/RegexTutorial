@@ -96,4 +96,4 @@ You also need to use regex \\ to match "\" (back-slash).
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Andre Lucas - new to full stack development. https://github.com/polodre
