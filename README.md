@@ -63,6 +63,13 @@ is between the brackets. You will often see ranges of the alphabet or all numera
 
 ### Character Classes
 
+With a “character class”, also called “character set”, you can tell the regex engine
+to match only one out of several characters. Simply place the characters you want to
+match between square brackets. If you want to match an a or an e, use [ae]. To match
+a character having special meaning in regex, you need to use a escape sequence prefix
+with a backslash ( \ ). E.g., \. matches "." ; regex \+ matches "+" ; and
+regex \( matches "(" . You also need to use regex \\ to match "\" (back-slash).
+
 ### The OR Operator
 
 ### Flags
