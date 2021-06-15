@@ -72,9 +72,27 @@ regex \( matches "(" . You also need to use regex \\ to match "\" (back-slash).
 
 ### The OR Operator
 
+The Alternation Operator ( | or \| )
+
+Alternatives match one of a choice of regular expressions: if you put the character(s) representing the alternation operator between any two regular expressions a and b , the result matches the union of the strings that a and b match.
+
 ### Flags
 
+The flags property returns a string consisting of the flags of the current regular expression object.
+In any regular expression, we can use the following flags:
+g : matches the pattern multiple times.
+i : makes the regex case insensitive.
+m : enables multi-line mode. ...
+u : enables support for unicode.
+s : short for single line, it causes the . to also match new line characters.
+
 ### Character Escapes
+
+The backslash in a regular expression precedes a literal character. You also escape
+certain letters that represent common character classes, such as \w for a word
+character or \s for a space. To match a character having special meaning in
+regex, you need to use a escape sequence prefix with a backslash ( \ ). ...
+You also need to use regex \\ to match "\" (back-slash).
 
 ## Author
 
